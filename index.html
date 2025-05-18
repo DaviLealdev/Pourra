@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POUrra</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/wallpaper.css">
+    <link rel="shortcut icon" href="src/images/Pourra.png" type="image/x-icon">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+</style>
+</head>
+<body class="wallpaper">
+    
+    <div class="container">
+        <nav class="upNavbar">
+            <div class="info">
+                <div class="moedas">
+                    <img src="src/images/cedula de 10.png" alt="cédula.png">
+                    <p id="bucks-count">0</p>
+                </div>
+
+                    <div class="pourra-information">
+                    
+                        <div id="fome">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hamburger-icon lucide-hamburger"><path d="M12 16H4a2 2 0 1 1 0-4h16a2 2 0 1 1 0 4h-4.25"/><path d="M5 12a2 2 0 0 1-2-2 9 7 0 0 1 18 0 2 2 0 0 1-2 2"/><path d="M5 16a2 2 0 0 0-2 2 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 2 2 0 0 0-2-2q0 0 0 0"/><path d="m6.67 12 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2"/></svg>
+                        </div>
+
+                        <div id="saude">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-plus-icon lucide-heart-plus"><path d="M13.5 19.5 12 21l-7-7c-1.5-1.45-3-3.2-3-5.5A5.5 5.5 0 0 1 7.5 3c1.76 0 3 .5 4.5 2 1.5-1.5 2.74-2 4.5-2a5.5 5.5 0 0 1 5.402 6.5"/><path d="M15 15h6"/><path d="M18 12v6"/></svg>
+                        </div>
+
+                        <div id="alegre">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-laugh-icon lucide-laugh"><circle cx="12" cy="12" r="10"/><path d="M18 13a6 6 0 0 1-6 5 6 6 0 0 1-6-5h12Z"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg>
+                        </div>
+
+                        <div id="energia">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cigarette-icon lucide-cigarette"><path d="M17 12H3a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h14"/><path d="M18 8c0-2.5-2-2.5-2-5"/><path d="M21 16a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"/><path d="M22 8c0-2.5-2-2.5-2-5"/><path d="M7 12v4"/></svg>
+                        </div>
+                
+
+                    </div>
+
+                 <div class="level">
+                    Level : <span id="level">0</span>
+                 </div>
+
+               
+
+            </div>
+            <div class="room">
+
+            <button id="left-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left-icon lucide-arrow-left"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+            </button>
+                <h2>Sala </h2>
+
+            <button id="right-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </button>
+            </div>
+        </nav>
+        
+        <div class="hero">
+            <img onclick="carinho()" src="src/images/Pourra.png" alt="">
+        </div>
+
+        <br>
+        <nav class="downNavbar">
+            <div id="option1">
+                 <img style="width: 80px;" src="src/images/porta de madeira.png" alt="">
+                <br>
+               <button>Brincar Lá Fora</button>
+              
+            </div>
+            <div id="option2">
+                <img style="width: 50px; padding: 5px; margin-left: 20px;" src="src/images/boneca_inflâvel-removebg-preview.png" alt="">
+                <br>
+                <button>Bonequinha</button>
+            </div>
+            <div id="option3">
+                <img style="width: 100px;" src="src/images/baseadão-removebg-preview.png" alt="">
+                <br>
+                <button>Boca d'fumo</button>
+            </div>
+        </nav>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
