@@ -15,7 +15,7 @@ body{
     overflow: hidden;
 }
 
-.container{
+#container{
     background-color: rgb(43, 238, 241);
     width: 720px;
     height: 670px;
