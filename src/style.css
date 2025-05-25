@@ -77,6 +77,7 @@ body{
             & .level{
                 margin-top: 10px;
                 margin-left: 150px;
+                
 
             }
 
@@ -87,7 +88,9 @@ body{
 .room{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 
     & button{
         background-color: white;
@@ -97,16 +100,18 @@ body{
         border-color: black;
         border-width: 4px;
         border-style: solid;
+        cursor: pointer;
     }
 }
+
+
 
 svg{
     font-weight: 900;
 }
 
 .hero{
-    
-
+    width: 20px;
     & img{
         margin: auto;
         width: 420px;
@@ -115,7 +120,7 @@ svg{
     }
 }
 
-.downNavbar{
+#downNavbar{
     margin-top: 100px;
     height: 115px;
     background-color: blueviolet;
